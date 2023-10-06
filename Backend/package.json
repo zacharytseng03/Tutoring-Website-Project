@@ -1,0 +1,24 @@
+{
+  "name": "tutorfinder",
+  "version": "1.0.0",
+  "description": "Tutor finder backend",
+  "main": "src/Server.ts",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node src/Server.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pg": "^8.11.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.5",
+    "@types/pg": "^8.10.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
